@@ -1,0 +1,681 @@
+{
+    "fuels": [
+        "Gasoline-US Mix",
+        "Diesel-US Mix",
+        "Biodiesel (BD100-Soybean)",
+        "Ethanol (E100-Corn)",
+        "Ethanol (E100-Switchgrass)",
+        "Ethanol (E100-Corn Stover)",
+        "Renewable Diesel"
+    ],
+    "metrics": [
+        "CO2e",
+        "VOC: Total",
+        "CO: Total",
+        "NOx: Total",
+        "PM10: Total",
+        "PM2.5: Total",
+        "SOx: Total",
+        "BC Total",
+        "OC Total",
+        "Total Energy",
+        "Fossil Energy",
+        "Coal",
+        "NG",
+        "Petroleum",
+        "Water consumption"
+    ],
+    "emissions": [
+        {
+            "id": "Gasoline-US Mix",
+            "CO2e": {
+                "WTP": 17.51142619,
+                "PTW": 73.03186355,
+                "WTW": 90.54328974,
+                "units": "[gCO2e/MJ]"
+            },
+            "VOC: Total": {
+                "WTP": 0.027981379,
+                "PTW": 0.050800604,
+                "WTW": 0.078781983,
+                "units": "[g/MJ]"
+            },
+            "CO: Total": {
+                "WTP": 0.015449439,
+                "PTW": 0.605753857,
+                "WTW": 0.621203296,
+                "units": "[g/MJ]"
+            },
+            "NOx: Total": {
+                "WTP": 0.025190231,
+                "PTW": 0.018206367,
+                "WTW": 0.043396599,
+                "units": "[g/MJ]"
+            },
+            "PM10: Total": {
+                "WTP": 0.002756663,
+                "PTW": 0.00762438,
+                "WTW": 0.010381043,
+                "units": "[g/MJ]"
+            },
+            "PM2.5: Total": {
+                "WTP": 0.001849714,
+                "PTW": 0.001638444,
+                "WTW": 0.003488157,
+                "units": "[g/MJ]"
+            },
+            "SOx: Total": {
+                "WTP": 0.00724414,
+                "PTW": 0.000432098,
+                "WTW": 0.007676238,
+                "units": "[g/MJ]"
+            },
+            "BC Total": {
+                "WTP": 0.00024385,
+                "PTW": 0.000577187,
+                "WTW": 0.000821037,
+                "units": "[g/MJ]"
+            },
+            "OC Total": {
+                "WTP": 0.000401543,
+                "PTW": 0.000393068,
+                "WTW": 0.000794611,
+                "units": "[g/MJ]"
+            },
+            "Total Energy": {
+                "WTP": 0.276716025,
+                "PTW": 1.0,
+                "WTW": 1.276716025,
+                "units": "[MJ/MJ]"
+            },
+            "Fossil Energy": {
+                "WTP": 0.248473992,
+                "PTW": 0.933326452,
+                "WTW": 1.181800444,
+                "units": "[MJ/MJ]"
+            },
+            "Coal": {
+                "WTP": 0.013223566,
+                "PTW": 0.0,
+                "WTW": 0.013223566,
+                "units": "[MJ/MJ]"
+            },
+            "NG": {
+                "WTP": 0.16290322,
+                "PTW": 0.0,
+                "WTW": 0.16290322,
+                "units": "[MJ/MJ]"
+            },
+            "Petroleum": {
+                "WTP": 0.072347206,
+                "PTW": 0.933326452,
+                "WTW": 1.005673658,
+                "units": "[MJ/MJ]"
+            },
+            "Water consumption": {
+                "WTP": 0.050138367,
+                "PTW": 0.0,
+                "WTW": 0.050138367,
+                "units": "[gal/MJ]"
+            }
+        },
+        {
+            "id": "Diesel-US Mix",
+            "CO2e": {
+                "WTP": 15.76066402,
+                "PTW": 75.65700828,
+                "WTW": 91.4176723,
+                "units": "[gCO2e/MJ]"
+            },
+            "VOC: Total": {
+                "WTP": 0.007109986,
+                "PTW": 0.039571696,
+                "WTW": 0.046681682,
+                "units": "[g/MJ]"
+            },
+            "CO: Total": {
+                "WTP": 0.011776301,
+                "PTW": 0.941941351,
+                "WTW": 0.953717652,
+                "units": "[g/MJ]"
+            },
+            "NOx: Total": {
+                "WTP": 0.018081282,
+                "PTW": 0.025958454,
+                "WTW": 0.044039737,
+                "units": "[g/MJ]"
+            },
+            "PM10: Total": {
+                "WTP": 0.001290056,
+                "PTW": 0.008965184,
+                "WTW": 0.01025524,
+                "units": "[g/MJ]"
+            },
+            "PM2.5: Total": {
+                "WTP": 0.001084394,
+                "PTW": 0.001793526,
+                "WTW": 0.00287792,
+                "units": "[g/MJ]"
+            },
+            "SOx: Total": {
+                "WTP": 0.004943649,
+                "PTW": 0.000516276,
+                "WTW": 0.005459924,
+                "units": "[g/MJ]"
+            },
+            "BC Total": {
+                "WTP": 0.000164019,
+                "PTW": 0.000639923,
+                "WTW": 0.000803941,
+                "units": "[g/MJ]"
+            },
+            "OC Total": {
+                "WTP": 0.000294918,
+                "PTW": 0.000265844,
+                "WTW": 0.000560762,
+                "units": "[g/MJ]"
+            },
+            "Total Energy": {
+                "WTP": 0.186111698,
+                "PTW": 1.0,
+                "WTW": 1.186111698,
+                "units": "[MJ/MJ]"
+            },
+            "Fossil Energy": {
+                "WTP": 0.180172455,
+                "PTW": 1.0,
+                "WTW": 1.180172455,
+                "units": "[MJ/MJ]"
+            },
+            "Coal": {
+                "WTP": 0.009788809,
+                "PTW": 0.0,
+                "WTW": 0.009788809,
+                "units": "[MJ/MJ]"
+            },
+            "NG": {
+                "WTP": 0.124002057,
+                "PTW": 0.0,
+                "WTW": 0.124002057,
+                "units": "[MJ/MJ]"
+            },
+            "Petroleum": {
+                "WTP": 0.046381588,
+                "PTW": 1.0,
+                "WTW": 1.046381588,
+                "units": "[MJ/MJ]"
+            },
+            "Water consumption": {
+                "WTP": 0.02197824,
+                "PTW": 0.0,
+                "WTW": 0.02197824,
+                "units": "[gal/MJ]"
+            }
+        },
+        {
+            "id": "Biodiesel (BD100-Soybean)",
+            "CO2e": {
+                "WTP": -44.60388325,
+                "PTW": 75.90263933,
+                "WTW": 31.29875608,
+                "units": "[gCO2e/MJ]"
+            },
+            "VOC: Total": {
+                "WTP": 0.019279655,
+                "PTW": 0.03824693,
+                "WTW": 0.057526585,
+                "units": "[g/MJ]"
+            },
+            "CO: Total": {
+                "WTP": 0.014571847,
+                "PTW": 0.941941351,
+                "WTW": 0.956513198,
+                "units": "[g/MJ]"
+            },
+            "NOx: Total": {
+                "WTP": 0.02052365,
+                "PTW": 0.025958454,
+                "WTW": 0.046482104,
+                "units": "[g/MJ]"
+            },
+            "PM10: Total": {
+                "WTP": 0.00157825,
+                "PTW": 0.008965184,
+                "WTW": 0.010543433,
+                "units": "[g/MJ]"
+            },
+            "PM2.5: Total": {
+                "WTP": 0.001238093,
+                "PTW": 0.001793526,
+                "WTW": 0.003031619,
+                "units": "[g/MJ]"
+            },
+            "SOx: Total": {
+                "WTP": 0.009582806,
+                "PTW": 0.0,
+                "WTW": 0.009582806,
+                "units": "[g/MJ]"
+            },
+            "BC Total": {
+                "WTP": 0.000316106,
+                "PTW": 0.000639923,
+                "WTW": 0.000956028,
+                "units": "[g/MJ]"
+            },
+            "OC Total": {
+                "WTP": 0.00029451,
+                "PTW": 0.000265844,
+                "WTW": 0.000560354,
+                "units": "[g/MJ]"
+            },
+            "Total Energy": {
+                "WTP": 0.490749348,
+                "PTW": 1.0,
+                "WTW": 1.490749348,
+                "units": "[MJ/MJ]"
+            },
+            "Fossil Energy": {
+                "WTP": 0.225480589,
+                "PTW": 0.0,
+                "WTW": 0.225480589,
+                "units": "[MJ/MJ]"
+            },
+            "Coal": {
+                "WTP": 0.023243629,
+                "PTW": 0.0,
+                "WTW": 0.023243629,
+                "units": "[MJ/MJ]"
+            },
+            "NG": {
+                "WTP": 0.166999924,
+                "PTW": 0.0,
+                "WTW": 0.166999924,
+                "units": "[MJ/MJ]"
+            },
+            "Petroleum": {
+                "WTP": 0.035237035,
+                "PTW": 0.0,
+                "WTW": 0.035237035,
+                "units": "[MJ/MJ]"
+            },
+            "Water consumption": {
+                "WTP": 0.592739933,
+                "PTW": 0.0,
+                "WTW": 0.592739933,
+                "units": "[gal/MJ]"
+            }
+        },
+        {
+            "id": "Ethanol (E100-Corn)",
+            "CO2e": {
+                "WTP": -15.71356609,
+                "PTW": 71.36128646,
+                "WTW": 55.64772037,
+                "units": "[gCO2e/MJ]"
+            },
+            "VOC: Total": {
+                "WTP": 0.057151921,
+                "PTW": 0.048641608,
+                "WTW": 0.105793529,
+                "units": "[g/MJ]"
+            },
+            "CO: Total": {
+                "WTP": 0.040777414,
+                "PTW": 0.648156627,
+                "WTW": 0.688934042,
+                "units": "[g/MJ]"
+            },
+            "NOx: Total": {
+                "WTP": 0.08577218,
+                "PTW": 0.019480813,
+                "WTW": 0.105252993,
+                "units": "[g/MJ]"
+            },
+            "PM10: Total": {
+                "WTP": 0.015512359,
+                "PTW": 0.008158087,
+                "WTW": 0.023670446,
+                "units": "[g/MJ]"
+            },
+            "PM2.5: Total": {
+                "WTP": 0.005786858,
+                "PTW": 0.001753135,
+                "WTW": 0.007539992,
+                "units": "[g/MJ]"
+            },
+            "SOx: Total": {
+                "WTP": 0.0241386,
+                "PTW": 3.71031e-05,
+                "WTW": 0.024175703,
+                "units": "[g/MJ]"
+            },
+            "BC Total": {
+                "WTP": 0.00066292,
+                "PTW": 0.000617591,
+                "WTW": 0.001280511,
+                "units": "[g/MJ]"
+            },
+            "OC Total": {
+                "WTP": 0.000974379,
+                "PTW": 0.000420583,
+                "WTW": 0.001394962,
+                "units": "[g/MJ]"
+            },
+            "Total Energy": {
+                "WTP": 0.88783074,
+                "PTW": 1.0,
+                "WTW": 1.88783074,
+                "units": "[MJ/MJ]"
+            },
+            "Fossil Energy": {
+                "WTP": 0.557626662,
+                "PTW": 0.0,
+                "WTW": 0.557626662,
+                "units": "[MJ/MJ]"
+            },
+            "Coal": {
+                "WTP": 0.043985443,
+                "PTW": 0.0,
+                "WTW": 0.043985443,
+                "units": "[MJ/MJ]"
+            },
+            "NG": {
+                "WTP": 0.456405499,
+                "PTW": 0.0,
+                "WTW": 0.456405499,
+                "units": "[MJ/MJ]"
+            },
+            "Petroleum": {
+                "WTP": 0.05723572,
+                "PTW": 0.0,
+                "WTW": 0.05723572,
+                "units": "[MJ/MJ]"
+            },
+            "Water consumption": {
+                "WTP": 0.390325349,
+                "PTW": 0.0,
+                "WTW": 0.390325349,
+                "units": "[gal/MJ]"
+            }
+        },
+        {
+            "id": "Ethanol (E100-Switchgrass)",
+            "CO2e": {
+                "WTP": -56.59681912,
+                "PTW": 71.36128646,
+                "WTW": 14.76446735,
+                "units": "[gCO2e/MJ]"
+            },
+            "VOC: Total": {
+                "WTP": 0.038995017,
+                "PTW": 0.048641608,
+                "WTW": 0.087636625,
+                "units": "[g/MJ]"
+            },
+            "CO: Total": {
+                "WTP": 0.159669772,
+                "PTW": 0.648156627,
+                "WTW": 0.8078264,
+                "units": "[g/MJ]"
+            },
+            "NOx: Total": {
+                "WTP": 0.234991969,
+                "PTW": 0.019480813,
+                "WTW": 0.254472782,
+                "units": "[g/MJ]"
+            },
+            "PM10: Total": {
+                "WTP": 0.014317149,
+                "PTW": 0.008158087,
+                "WTW": 0.022475236,
+                "units": "[g/MJ]"
+            },
+            "PM2.5: Total": {
+                "WTP": 0.005101862,
+                "PTW": 0.001753135,
+                "WTW": 0.006854997,
+                "units": "[g/MJ]"
+            },
+            "SOx: Total": {
+                "WTP": 0.198856875,
+                "PTW": 3.71031e-05,
+                "WTW": 0.198893978,
+                "units": "[g/MJ]"
+            },
+            "BC Total": {
+                "WTP": 0.000587644,
+                "PTW": 0.000617591,
+                "WTW": 0.001205235,
+                "units": "[g/MJ]"
+            },
+            "OC Total": {
+                "WTP": 0.000747677,
+                "PTW": 0.000420583,
+                "WTW": 0.00116826,
+                "units": "[g/MJ]"
+            },
+            "Total Energy": {
+                "WTP": 2.286327061,
+                "PTW": 1.0,
+                "WTW": 3.286327061,
+                "units": "[MJ/MJ]"
+            },
+            "Fossil Energy": {
+                "WTP": 0.101895362,
+                "PTW": 0.0,
+                "WTW": 0.101895362,
+                "units": "[MJ/MJ]"
+            },
+            "Coal": {
+                "WTP": -0.036719783,
+                "PTW": 0.0,
+                "WTW": -0.036719783,
+                "units": "[MJ/MJ]"
+            },
+            "NG": {
+                "WTP": 0.075500786,
+                "PTW": 0.0,
+                "WTW": 0.075500786,
+                "units": "[MJ/MJ]"
+            },
+            "Petroleum": {
+                "WTP": 0.063114359,
+                "PTW": 0.0,
+                "WTW": 0.063114359,
+                "units": "[MJ/MJ]"
+            },
+            "Water consumption": {
+                "WTP": 0.15800578,
+                "PTW": 0.0,
+                "WTW": 0.15800578,
+                "units": "[gal/MJ]"
+            }
+        },
+        {
+            "id": "Ethanol (E100-Corn Stover)",
+            "CO2e": {
+                "WTP": -60.92527495,
+                "PTW": 71.36128646,
+                "WTW": 10.43601151,
+                "units": "[gCO2e/MJ]"
+            },
+            "VOC: Total": {
+                "WTP": 0.038769506,
+                "PTW": 0.048641608,
+                "WTW": 0.087411114,
+                "units": "[g/MJ]"
+            },
+            "CO: Total": {
+                "WTP": 0.163829649,
+                "PTW": 0.648156627,
+                "WTW": 0.811986276,
+                "units": "[g/MJ]"
+            },
+            "NOx: Total": {
+                "WTP": 0.225505095,
+                "PTW": 0.019480813,
+                "WTW": 0.244985908,
+                "units": "[g/MJ]"
+            },
+            "PM10: Total": {
+                "WTP": 0.014953524,
+                "PTW": 0.008158087,
+                "WTW": 0.023111611,
+                "units": "[g/MJ]"
+            },
+            "PM2.5: Total": {
+                "WTP": 0.005732434,
+                "PTW": 0.001753135,
+                "WTW": 0.007485568,
+                "units": "[g/MJ]"
+            },
+            "SOx: Total": {
+                "WTP": 0.186889836,
+                "PTW": 3.71031e-05,
+                "WTW": 0.18692694,
+                "units": "[g/MJ]"
+            },
+            "BC Total": {
+                "WTP": 0.001180083,
+                "PTW": 0.000617591,
+                "WTW": 0.001797673,
+                "units": "[g/MJ]"
+            },
+            "OC Total": {
+                "WTP": 0.000926344,
+                "PTW": 0.000420583,
+                "WTW": 0.001346927,
+                "units": "[g/MJ]"
+            },
+            "Total Energy": {
+                "WTP": 2.077391331,
+                "PTW": 1.0,
+                "WTW": 3.077391331,
+                "units": "[MJ/MJ]"
+            },
+            "Fossil Energy": {
+                "WTP": 0.130832406,
+                "PTW": 0.0,
+                "WTW": 0.130832406,
+                "units": "[MJ/MJ]"
+            },
+            "Coal": {
+                "WTP": -0.035322204,
+                "PTW": 0.0,
+                "WTW": -0.035322204,
+                "units": "[MJ/MJ]"
+            },
+            "NG": {
+                "WTP": 0.069839181,
+                "PTW": 0.0,
+                "WTW": 0.069839181,
+                "units": "[MJ/MJ]"
+            },
+            "Petroleum": {
+                "WTP": 0.09631543,
+                "PTW": 0.0,
+                "WTW": 0.09631543,
+                "units": "[MJ/MJ]"
+            },
+            "Water consumption": {
+                "WTP": 0.158719222,
+                "PTW": 0.0,
+                "WTW": 0.158719222,
+                "units": "[gal/MJ]"
+            }
+        },
+        {
+            "id": "Renewable Diesel",
+            "CO2e": {
+                "WTP": -39.71558084,
+                "PTW": 73.32753688,
+                "WTW": 33.61195604,
+                "units": "[gCO2e/MJ]"
+            },
+            "VOC: Total": {
+                "WTP": 0.019369239,
+                "PTW": 0.03824693,
+                "WTW": 0.057616169,
+                "units": "[g/MJ]"
+            },
+            "CO: Total": {
+                "WTP": 0.016330557,
+                "PTW": 0.941941351,
+                "WTW": 0.958271908,
+                "units": "[g/MJ]"
+            },
+            "NOx: Total": {
+                "WTP": 0.022691665,
+                "PTW": 0.025958454,
+                "WTW": 0.04865012,
+                "units": "[g/MJ]"
+            },
+            "PM10: Total": {
+                "WTP": 0.001683378,
+                "PTW": 0.008965184,
+                "WTW": 0.010648562,
+                "units": "[g/MJ]"
+            },
+            "PM2.5: Total": {
+                "WTP": 0.001321165,
+                "PTW": 0.001793526,
+                "WTW": 0.003114691,
+                "units": "[g/MJ]"
+            },
+            "SOx: Total": {
+                "WTP": 0.009931731,
+                "PTW": 0.0,
+                "WTW": 0.009931731,
+                "units": "[g/MJ]"
+            },
+            "BC Total": {
+                "WTP": 0.00032642,
+                "PTW": 0.000639923,
+                "WTW": 0.000966343,
+                "units": "[g/MJ]"
+            },
+            "OC Total": {
+                "WTP": 0.000322628,
+                "PTW": 0.000265844,
+                "WTW": 0.000588472,
+                "units": "[g/MJ]"
+            },
+            "Total Energy": {
+                "WTP": 0.51862081,
+                "PTW": 1.0,
+                "WTW": 1.51862081,
+                "units": "[MJ/MJ]"
+            },
+            "Fossil Energy": {
+                "WTP": 0.260387695,
+                "PTW": 0.0,
+                "WTW": 0.260387695,
+                "units": "[MJ/MJ]"
+            },
+            "Coal": {
+                "WTP": 0.025560603,
+                "PTW": 0.0,
+                "WTW": 0.025560603,
+                "units": "[MJ/MJ]"
+            },
+            "NG": {
+                "WTP": 0.198314296,
+                "PTW": 0.0,
+                "WTW": 0.198314296,
+                "units": "[MJ/MJ]"
+            },
+            "Petroleum": {
+                "WTP": 0.036512796,
+                "PTW": 0.0,
+                "WTW": 0.036512796,
+                "units": "[MJ/MJ]"
+            },
+            "Water consumption": {
+                "WTP": 0.602046807,
+                "PTW": 0.0,
+                "WTW": 0.602046807,
+                "units": "[gal/MJ]"
+            }
+        }
+    ]
+}
