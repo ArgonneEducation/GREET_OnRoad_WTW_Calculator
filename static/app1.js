@@ -2,7 +2,7 @@
 // and then creates a panel with the emissions data.
 
 function makePanel(fuel, metric) {
-    d3.json("data\\emissions.json").then(function (data) {
+    d3.json("https://raw.githubusercontent.com/ArgonneEducation/GREET_OnRoad_WTW_Calculator/refs/heads/main/data/emissions.json").then(function (data) {
         let dataArray = data.emissions;
 
         // Filter data based on fuel and metric
@@ -21,7 +21,7 @@ function makePanel(fuel, metric) {
 };
 // Update the bar chart with data
 function makeBarChart(fuel, metric) {
-    d3.json("data\\emissions.json").then(function (data) {
+    d3.json("https://raw.githubusercontent.com/ArgonneEducation/GREET_OnRoad_WTW_Calculator/refs/heads/main/data/emissions.json").then(function (data) {
         let dataArray = data.emissions;
 
         // Filter data based on fuel and metric
@@ -72,7 +72,7 @@ function makeBarChart(fuel, metric) {
 };
 // Populate dropdown menus and initialize the page
 function init() {
-    d3.json("data\\emissions.json").then(function (data) {
+    d3.json("https://raw.githubusercontent.com/ArgonneEducation/GREET_OnRoad_WTW_Calculator/refs/heads/main/data/emissions.json").then(function (data) {
         // Populate fuel dropdown from the list in the json file
         let fuelDropdown = d3.select("#selfuel");
         let fuels = data.fuels;
