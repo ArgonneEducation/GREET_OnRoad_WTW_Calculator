@@ -1,25 +1,26 @@
 # GREET_OnRoad_WTW_Calculator
-This repository contains code for an app to access GREET on-road data from the WTW Calculator.
+This repository contains code for an app to access GREET **On-Road** data from the WTW Calculator.
 
-Data accessible through this app includes only information on different fuels for **On-Road** vehicles and different fuels.  For each fuel/metric combination available, users can view Well-to-Pump, Pump-to-Wake, and Well-to-Wake values for the specific metric chosen. These are defined in the [glossary](#Glossary).
+## Source and Funding
+The data is from software produced by UChicago Argonne, LLC under Contract No. DE-AC02-06CH11357 with the Department of Energy.
 
+Documentation for calculated values can be found at https:/greet.anl.gov/
 
-# Opening the App
-Access the app at the link: https://argonneeducation.github.io/GREET_OnRoad_WTW_Calculator/
+In addition, this interactive is intended for use with case studies developed by DOE's Bioenergy Technologies Office as part of the Bioenergy Research and Education Bridge Program (BRIDGES).
 
+BRIDGES is a bioenergy case study-based educational toolkit created in partnership with Argonne National Laboratory and Idaho National Laboratory, as well as education, community, industry, and other government partners.  You can learn more about the program at https://www.energy.gov/eere/bioenergy/bioenergy-research-and-education-bridge-program .
 
-# Using the App
-At the top left, there is a dropdown box labeled **Select a Fuel:**
-Use this dropdown to select which fuel or feedstock you'd like results for.
+## Using the app
+In the deployed app, there is a dropdown box in the top left corner.  By default, "Gasoline-US Mix" is selected, but users can select from variations of on-road fuels and a variety of bioenergy feedstocks.  A second dropdown box near the top left is for the metric to be used.  By default, grams of CO2 equivalent per MegaJoule is selected, but other emissions and metrics can be chosen as well.
 
-Just below the top dropdown is anothe dropdown box labeled **Select a Metric:**
-Use this dropdown to select a metric or type of emissions to get results for.
+The large bar chart graphic displays the results chosen and displayed above for well-to-pump, pump-to-wake, and well-to-wake emissions for the chosen feedstock and metric.  These are defined in the [glossary](#Glossary).
 
-Below the dropdowns is an **Emissions by Stage** section that reports numerical values for the fuel and metric combination that you have chosen.  The definitions for the stages can be found in the [glossary](#Glossary).The units for the values are also shown in this section.
+The table at the bottom is configured to show ALL the data for a particular metric, with a column for each feedstock/process.  Again, there is a dropdown box to change the metric.  The table is NOT directly linked to the graph, though the data used for the graph can be found in the table as well, with immediate comparisons to the values for other feedstocks/processes.
 
-The bar chart below this is a visualization of the values reported in the **Emissions by Stage** section.  
+## Background Information
+The data displayed here are data for life cycle analysis of the emissions (and more) of different processes for producing fuel for on-road vehicles.  Life cycle analysis is a form of cradle-to-grave analysis that is intended to provide information for making decisions about which processes to invest in.  Life cycle analysis helps us answer the question: "Does this new way of doing things really produce fewer emissions when the entire process is considered?"
 
-The **Interactive Data Table** below the chart is a separate section which is fed by a separate dropdown menu.  Here users can select a metric, and the values for each of the available fuels then populate the table.  This allows for easier comparison between fuels as well as the opportunity to recognize patterns that are not as apparent in the visualization of only one fuel/metric combination at a time.
+The "Well-to-Pump" values are for all of the processes involved in producing a fuel.  For petroleum fuels, this would include things like oil field emissions, refinery emissions from producing a fuel, and transportation emissions for delivering a fuel to the location where a consumer could pump the fuel into a vehicle.  The "Pump-to-Wake" values are for combustion of the fuel during use in the vehicle.  In the table at the bottom, it can be seen that these values are often not very different for different fuel production processes and feedstocks.  The "Well-to-Wake" values are simply a combination (by addition) of the two.  
 
 
 # Glossary
@@ -64,7 +65,4 @@ In a life cycle analysis of a fuel, includes the addition of well-to-pump and pu
 
 Note: The app pulls data from a file hosted within the GitHub repository.  
 
-As shown within the app, this product includes software produced by UChicago Argonne, LLC under Contrat No. DE-AC02-06CH11357 with the Department of Energy.  
-
-Documentation for calculated values can be found at https://greet.anl.gov/
 
