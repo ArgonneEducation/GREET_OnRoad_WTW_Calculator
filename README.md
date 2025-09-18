@@ -1,15 +1,25 @@
 # GREET_OnRoad_WTW_Calculator
 This repository contains code for an app to access GREET on-road data from the WTW Calculator.
 
-Data accessible through this app includes only information on different fuels for On-Road vehicles and different fuels.  For each fuel/metric combination available, users can view Well-to-Pump, Pump-to-Wake, and Well-to-Wake values for the specific metric chosen. These are defined in the [glossary](#Glossary).  The top two dropdown boxes feed the bar chart.
-
-Below the chart is an interactive Data Table which is fed by a separate dropdown menu.  Here useres can select a metric, and the values for each of the available fuels then populate the table.  This allows for easier comparison between fuels as well as the opportunity to recognize patterns that are not as apparent in the visualization of only one fuel/metric combination at a time.
+Data accessible through this app includes only information on different fuels for **On-Road** vehicles and different fuels.  For each fuel/metric combination available, users can view Well-to-Pump, Pump-to-Wake, and Well-to-Wake values for the specific metric chosen. These are defined in the [glossary](#Glossary).
 
 
 # Opening the App
 Access the app at the link: https://argonneeducation.github.io/GREET_OnRoad_WTW_Calculator/
 
+
 # Using the App
+At the top left, there is a dropdown box labeled **Select a Fuel:**
+Use this dropdown to select which fuel or feedstock you'd like results for.
+
+Just below the top dropdown is anothe dropdown box labeled **Select a Metric:**
+Use this dropdown to select a metric or type of emissions to get results for.
+
+Below the dropdowns is an **Emissions by Stage** section that reports numerical values for the fuel and metric combination that you have chosen.  The definitions for the stages can be found in the [glossary](#Glossary).The units for the values are also shown in this section.
+
+The bar chart below this is a visualization of the values reported in the **Emissions by Stage** section.  
+
+The **Interactive Data Table** below the chart is a separate section which is fed by a separate dropdown menu.  Here users can select a metric, and the values for each of the available fuels then populate the table.  This allows for easier comparison between fuels as well as the opportunity to recognize patterns that are not as apparent in the visualization of only one fuel/metric combination at a time.
 
 
 # Glossary
@@ -52,7 +62,9 @@ In a life cycle analysis of a fuel, includes the addition of well-to-pump and pu
 
 
 
+Note: The app pulls data from a file hosted within the GitHub repository.  
 
-index.html and app1.js allow for selection of feedstock and metric.
+As shown within the app, this product includes software produced by UChicago Argonne, LLC under Contrat No. DE-AC02-06CH11357 with the Department of Energy.  
 
-The data are now hosted on GitHub and the javascript file has been edited to call on the file hosted on GitHub via the url.
+Documentation for calculated values can be found at https://greet.anl.gov/
+
