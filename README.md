@@ -15,7 +15,10 @@ Access the app at the link: https://argonneeducation.github.io/GREET_OnRoad_WTW_
 # Glossary
 
 ### Biodiesel (BD 100-Soybean)
-Biodiesel is a drop-in fuel for traditional diesel engines.  The 100 in the designation indicates that it is 100% from recently living organic matter.  In this case, it is from soybean oil, processed in a refinery to produce a fuel compatible with diesel engines.
+Biodiesel is produced by the transesterification of vegetable oils or animal fats.  The 100 in the designation indicates that it is 100% from recently living organic matter.  In this case, it is from soybean oil, processed in a refinery to produce a fuel that can be blended with petroleum diesel to make it compatible with diesel engines.  
+
+### CO2e 
+Carbon dioxide equivalent.  Includes emissions from typical gases that contribute to the greenhouse effect, reported as carbon dioxide emissions, to attempt to fully encompass greenhouse effect ramifications from a process.
 
 ### Corn Stover
 The stalks, leaves, and husks that remain in the field after the corn harvest.
@@ -24,15 +27,22 @@ The stalks, leaves, and husks that remain in the field after the corn harvest.
 Values here refer to assumptions made that reflect emissions based upon typical diesel production from petroleum and use in the United States, with regional differences averaged out.
 
 ### Ethanol (E 100-Corn)
-Ethanol is a product of fermentation of recently living organic matter.  Ethanol is widely blended into petroleum gasoline in the United States.  The 100 in the designation here, however, indicates that it is 100% from recently living organic matter.  This is not a common fuel for vehicles in the United States.  The "Corn" in the designation indicates that the values are based upon production of ethanol from corn grain.
+Ethanol is a product of fermentation of recently living organic matter.  Ethanol is widely blended into petroleum gasoline in the United States.  The 100 in the designation here, however, indicates that it is 100% from recently living organic matter.  100% ethanol is not a common fuel for vehicles in the United States.  The "Corn" in the designation indicates that the values are based upon production of ethanol from corn grain.
+
+### Ethanol (E 100-Switchgrass)
+This is 100% ethanol produced from switchgrass, a plant native to North America that can be used for cellulosic ethanol production.
 
 ### Gasoline-US Mix
 Values here refer to assumptions made that reflect emissions based upon typical gasoline production from petroleum and use in the United States, with regional differences averaged out.
 
-
-
 ### Pump-to-wake (PTW)  
 The stage in the life cycle analysis of a fuel that includes the combustion of fuel during vehicle operation.
+
+### Renewable Diesel
+Renewable Diesel is a drop-in biofuel that can be used in regular diesel engines and is produced from biomass feedstocks.
+
+### VOC
+Volatile Organic Carbon emissions
 
 ### Well-to-pump (WTP)
 The stages in the life cycle analysis of a fuel that include exploration, recovery(e.g. from a well), fuel production, and the subsequent transportation of the fuel to the pump which can deliver it to a vehicle.
