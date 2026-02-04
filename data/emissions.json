@@ -125,7 +125,7 @@
                 "WTP": 15.76066402,
                 "PTW": 75.65700828,
                 "WTW": 91.4176723,
-                "units": "[gCO2e/MJ]"
+                "units": "[gCO<sub>2</sub>e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.007109986,
@@ -218,7 +218,7 @@
                 "WTP": -44.60388325,
                 "PTW": 75.90263933,
                 "WTW": 31.29875608,
-                "units": "[gCO2e/MJ]"
+                "units": "[gCO<sub>2</sub>e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.019279655,
@@ -311,7 +311,7 @@
                 "WTP": -15.71356609,
                 "PTW": 71.36128646,
                 "WTW": 55.64772037,
-                "units": "[gCO2e/MJ]"
+                "units": "[gCO<sub>2</sub>e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.057151921,
@@ -404,7 +404,7 @@
                 "WTP": -56.59681912,
                 "PTW": 71.36128646,
                 "WTW": 14.76446735,
-                "units": "[gCO2e/MJ]"
+                "units": "[gCO<sub>2</sub>e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.038995017,
@@ -497,7 +497,7 @@
                 "WTP": -60.92527495,
                 "PTW": 71.36128646,
                 "WTW": 10.43601151,
-                "units": "[gCO2e/MJ]"
+                "units": "[gCO<sub>2</sub>e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.038769506,
@@ -590,7 +590,7 @@
                 "WTP": -39.71558084,
                 "PTW": 73.32753688,
                 "WTW": 33.61195604,
-                "units": "[gCO2e/MJ]"
+                "units": "[gCO<sub>2</sub>e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.019369239,
