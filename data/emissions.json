@@ -9,7 +9,7 @@
         "Renewable Diesel"
     ],
     "metrics": [
-        "CO/u2082e",
+        "CO2e",
         "VOC: Total",
         "CO: Total",
         "NOx: Total",
@@ -28,11 +28,11 @@
     "emissions": [
         {
             "id": "Gasoline-US Mix",
-            "CO/u2082e": {
+            "CO2e": {
                 "WTP": 17.51142619,
                 "PTW": 73.03186355,
                 "WTW": 90.54328974,
-                "units": "[gCO<sub>2</sub>e/MJ]"
+                "units": "[gCO2e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.027981379,
@@ -121,11 +121,11 @@
         },
         {
             "id": "Diesel-US Mix",
-            "CO/u2082e": {
+            "CO2e": {
                 "WTP": 15.76066402,
                 "PTW": 75.65700828,
                 "WTW": 91.4176723,
-                "units": "[gCO<sub>2</sub>e/MJ]"
+                "units": "[gCO2e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.007109986,
@@ -214,11 +214,11 @@
         },
         {
             "id": "Biodiesel (BD100-Soybean)",
-            "CO/u2082e": {
+            "CO2e": {
                 "WTP": -44.60388325,
                 "PTW": 75.90263933,
                 "WTW": 31.29875608,
-                "units": "[gCO<sub>2</sub>e/MJ]"
+                "units": "[gCO2e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.019279655,
@@ -307,11 +307,11 @@
         },
         {
             "id": "Ethanol (E100-Corn)",
-            "CO/u2082e": {
+            "CO2e": {
                 "WTP": -15.71356609,
                 "PTW": 71.36128646,
                 "WTW": 55.64772037,
-                "units": "[gCO<sub>2</sub>e/MJ]"
+                "units": "[gCO2e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.057151921,
@@ -400,11 +400,11 @@
         },
         {
             "id": "Ethanol (E100-Switchgrass)",
-            "CO/u2082e": {
+            "CO2e": {
                 "WTP": -56.59681912,
                 "PTW": 71.36128646,
                 "WTW": 14.76446735,
-                "units": "[gCO<sub>2</sub>e/MJ]"
+                "units": "[gCO2e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.038995017,
@@ -493,11 +493,11 @@
         },
         {
             "id": "Ethanol (E100-Corn Stover)",
-            "CO/u2082e": {
+            "CO2e": {
                 "WTP": -60.92527495,
                 "PTW": 71.36128646,
                 "WTW": 10.43601151,
-                "units": "[gCO<sub>2</sub>e/MJ]"
+                "units": "[gCO2e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.038769506,
@@ -586,11 +586,11 @@
         },
         {
             "id": "Renewable Diesel",
-            "CO/u2082e": {
+            "CO2e": {
                 "WTP": -39.71558084,
                 "PTW": 73.32753688,
                 "WTW": 33.61195604,
-                "units": "[gCO<sub>2</sub>e/MJ]"
+                "units": "[gCO2e/MJ]"
             },
             "VOC: Total": {
                 "WTP": 0.019369239,
