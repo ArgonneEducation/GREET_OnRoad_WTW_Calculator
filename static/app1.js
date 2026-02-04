@@ -1,10 +1,6 @@
 // makePanel loads the dataset, drills down to data, filters the data to get emissions data
 // and then creates a panel with the emissions data.
 
-// address subscripts
-const unit - data.unit; 
-const formattedUnit = unit.replace(/CO2e/g, 'CO<sub>2</sub>e');
-
 // Use innerHTML to insert subscripts
 document.getElementById(/unit-display').innerHTML = formattedUnit;
 
