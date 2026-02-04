@@ -19,7 +19,7 @@ function makePanel(fuel, metric) {
             d3.select(".WTP").text(`Well-to-pump: ${currentMetric.WTP}`);
             d3.select(".PTW").text(`Pump-to-wake: ${currentMetric.PTW}`);
             d3.select(".WTW").text(`Well-to-wake: ${currentMetric.WTW}`);
-            d3.select(".UNITS").text(`Units: ${currentMetric.units}`);
+            d3.select(".UNITS").html(`Units: ${currentMetric.units.replace(/CO2e/g, 'CO<sub>2</sub>e')}`);
         } else {
             console.error("fuel or metric not found in data.");
         }
@@ -66,7 +66,7 @@ function makeBarChart(fuel, metric) {
             let layout = {
                 title: 'Emissions for Selected fuel and Metric',
                 barmode: 'overlay',
-                xaxis: { title: emiss_values.units },
+                xaxis: { title: emiss_values.units.replace(/CO2e/g, 'CO<sub>2</sub>e') },
                 yaxis: { title: 'Emissions by LCA Stage' },
                 width: 500
             };
@@ -91,7 +91,8 @@ function init() {
         let metricDropdown = d3.select("#selMetric");
         let metrics = data.metrics;
         metrics.forEach(metric => {
-            metricDropdown.append("option").text(metric).property("value", metric);
+            let displayText = metric.replace(/CO2e/g, 'CO<sub>2</sub>e');
+            metricDropdown.append("option").html(displayText).property("value", metric);
         });
 
         // Initialize with the first fuel and metric
