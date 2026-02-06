@@ -36,7 +36,7 @@ function makeBarChart(fuel, metric) {
                 type: 'bar',
                 name: 'WTP',
                 orientation: 'h',
-                marker: { color: 'A5CFED', width: 1 }
+                marker: { color: 'blue', width: 1 }
             };
             let trace2 = {
                 x: [emiss_values.PTW],
@@ -44,7 +44,7 @@ function makeBarChart(fuel, metric) {
                 type: 'bar',
                 name: 'PTW',
                 orientation: 'h',
-                marker: { color: 'F6665E', width: 1 }
+                marker: { color: 'red', width: 1 }
             };
             let trace3 = {
                 x: [emiss_values.WTW],
@@ -52,7 +52,7 @@ function makeBarChart(fuel, metric) {
                 type: 'bar',
                 name: 'WTW',
                 orientation: 'h',
-                marker: { color: '05AD59', width: 1 }
+                marker: { color: 'green', width: 1 }
             };
 
             let plot = [trace3, trace2, trace1];
@@ -70,6 +70,30 @@ function makeBarChart(fuel, metric) {
         }
     });
 };
+
+// Populate the data table with all emissions data
+function makeDataTable(metric) {
+    d3.json("https://raw.githubusercontent.com/ArgonneEducation/GREET_OnRoad_WTW_Calculator/refs/heads/main/data/emissions.json").then(function (data) {
+        let dataArray = data.emissions;
+        let tableBody = d3.select("#tableBody");
+        
+        // Clear existing table data
+        tableBody.html("");
+        
+        // Populate table with data for all fuels
+        dataArray.forEach(fuel => {
+            if (fuel[metric]) {
+                let row = tableBody.append("tr");
+                row.append("td").text(fuel.id);
+                row.append("td").text(fuel[metric].WTP);
+                row.append("td").text(fuel[metric].PTW);
+                row.append("td").text(fuel[metric].WTW);
+                row.append("td").html(fuel[metric].units.replace(/CO2e/g, 'CO<sub>2</sub>e'));
+            }
+        });
+    });
+};
+
 // Populate dropdown menus and initialize the page
 function init() {
     d3.json("https://raw.githubusercontent.com/ArgonneEducation/GREET_OnRoad_WTW_Calculator/refs/heads/main/data/emissions.json").then(function (data) {
@@ -88,11 +112,18 @@ function init() {
             metricDropdown.append("option").html(displayText).property("value", metric);
         });
 
+        // Populate data table metric dropdown
+        let tableMetricDropdown = d3.select("#metricSelect");
+        metrics.forEach(metric => {
+            tableMetricDropdown.append("option").text(metric).property("value", metric);
+        });
+        
         // Initialize with the first fuel and metric
         let initialfuel = fuels[0];
         let initialMetric = metrics[0];
         makePanel(initialfuel, initialMetric);
         makeBarChart(initialfuel, initialMetric);
+        makeDataTable(initialMetric);
     });
 }
 
@@ -111,5 +142,9 @@ function metricChanged(metric) {
     makeBarChart(fuel, metric);
 }
 
+//Handle data table metric dropdown change
+function tableMetricChanged(metric) {
+    makeDataTable(metric);
+}
 
 init(); // call init function to load the data and create the dropdown list.
