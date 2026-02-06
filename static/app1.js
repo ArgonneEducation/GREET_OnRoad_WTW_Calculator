@@ -57,7 +57,7 @@ function makeBarChart(fuel, metric) {
 
             let plot = [trace3, trace2, trace1];
             let layout = {
-                title: 'Emissions for Selected fuel and Metric',
+                title: 'Emissions for Selected Fuel and Metric',
                 barmode: 'overlay',
                 xaxis: { title: emiss_values.units.replace(/CO2e/g, 'CO<sub>2</sub>e') },
                 yaxis: { title: 'Emissions by LCA Stage' },
