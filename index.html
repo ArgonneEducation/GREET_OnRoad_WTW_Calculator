@@ -56,7 +56,6 @@
             margin-right: 30px
         }
     </style>
-    
 </head>
     
 <div class="logo">
@@ -65,47 +64,49 @@
     
 <body>
     <div class="custom-margin">
-    <div class="row">
-        <div class="col-md-12 p-5 text-center bg-light">
-            <h2 style="text-align:center">GREET On Road Well-to-Wake Calculator Results</h2>
-        </div>
-    </div>
-    
-    <div class="row">
-        <!-- Card 1: Select a Fuel -->
-        <div class="col-md-4 mb-3">
-            <div class="card card-body bg-light">
-                <h5>Select a Fuel:</h5>
-                <select id="selfuel" onchange="fuelChanged(this.value)">
-                </select>
+        <div class="row">
+            <div class="col-md-12 p-5 text-center bg-light">
+            <h2>GREET On Road Well-to-Wake Calculator Results</h2>
             </div>
         </div>
+
+        
+        <div class="row">
+        <!-- Card 1: Select a Fuel -->
+            <div class="col-md-4 mb-3">
+                <div class="card card-body bg-light">
+                    <h5>Select a Fuel:</h5>
+                    <select id="selfuel" onchange="fuelChanged(this.value)">
+                    </select>
+                </div>
+            </div>
 
         <!-- Card 2: Select a Metric -->
-        <div class="col-md-4 mb-3">
-            <div class="card card-body bg-light">
-                <h5>Select a Metric:</h5>
-                <select id="selMetric" onchange="metricChanged(this.value)">
-                </select>
+            <div class="col-md-4 mb-3">
+                <div class="card card-body bg-light">
+                    <h5>Select a Metric:</h5>
+                    <select id="selMetric" onchange="metricChanged(this.value)">
+                    </select>
+                </div>
             </div>
-        </div>
 
     <!-- Card 3: Emissions by Stage -->  
-    <div class=" col-md-4 mb-3">
-        <div class="card card-body bg-light">
-            <h6 class="card-title">Emissions by Stage</h6>
-            <ul class="Emissions">
-                <li class="WTP"> WTP: </li>
-                <li class="PTW"> PTW: </li>
-                <li class="WTW"> WTW: </li>
-                <li class="UNITS"> units: </li>
-            </ul>
+        <div class=" col-md-4 mb-3">
+            <div class="card card-body bg-light">
+                <h6 class="card-title">Emissions by Stage</h6>
+                <ul class="Emissions">
+                    <li class="WTP"> WTP: </li>
+                    <li class="PTW"> PTW: </li>
+                    <li class="WTW"> WTW: </li>
+                    <li class="UNITS"> units: </li>
+                </ul>
+            </div>
         </div>
     </div>
-    </div>
     
-        <div id="fuel_emissions" class="card mb-3">
+    <div id="fuel_emissions" class="card mb-3">
     </div>
+        
     <div class="row">
        <div class="col-md-8">
         <div id="bar"></div>
