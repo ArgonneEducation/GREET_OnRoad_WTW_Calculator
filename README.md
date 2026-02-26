@@ -6,7 +6,7 @@ The data is from software produced by UChicago Argonne, LLC under Contract No. D
 
 Documentation for calculated values can be found at https:/greet.anl.gov/
 
-In addition, this interactive is intended for use with case studies developed by DOE's Bioenergy Technologies Office as part of the Bioenergy Research and Education Bridge Program (BRIDGES).
+In addition, this interactive is intended for use with case studies developed by DOE's Alternative Fuels and Feedstocks Office as part of the Bioenergy Research and Education Bridge Program (BRIDGES).
 
 BRIDGES is a bioenergy case study-based educational toolkit created in partnership with Argonne National Laboratory and Idaho National Laboratory, as well as education, community, industry, and other government partners.  You can learn more about the program at https://www.energy.gov/eere/bioenergy/bioenergy-research-and-education-bridge-program .
 
