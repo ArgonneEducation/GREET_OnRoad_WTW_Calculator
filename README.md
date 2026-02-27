@@ -28,7 +28,7 @@ The "Well-to-Pump" values are for all of the processes involved in producing a f
 ### Biodiesel (BD 100-Soybean)
 Biodiesel is produced by the transesterification of vegetable oils or animal fats.  The 100 in the designation indicates that it is 100% from recently living organic matter.  In this case, it is from soybean oil, processed in a refinery to produce a fuel that can be blended with petroleum diesel to make it compatible with diesel engines.  
 
-### CO2e 
+### CO<sub>2</sub>e 
 Carbon dioxide equivalent.  Includes emissions from typical gases that contribute to the greenhouse effect, reported as carbon dioxide emissions, to attempt to fully encompass greenhouse effect ramifications from a process.
 
 ### Corn Stover
