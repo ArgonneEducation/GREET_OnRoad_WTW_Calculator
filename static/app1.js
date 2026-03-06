@@ -35,8 +35,15 @@ function makeBarChart(fuel, metric) {
                 y: ['WTP'],
                 type: 'bar',
                 name: 'WTP',
-                orientation: 'h',
-                marker: { color: 'blue', width: 1 }
+                orientation: 'h', // Set orientation to horizontal
+                marker: {
+                    color: '#D81B60', // a strong magenta color for contrast to aid colorblind users, and to be visually distinct from the other bars
+                    pattern: {
+                        shape: '|',
+                        size: 10, solidity: 0.5 // Use a vertical line pattern for WTP to differentiate it from other bars, solidity affects bar spacing and width
+                    }, width: 2
+                }
+
             };
             let trace2 = {
                 x: [emiss_values.PTW],
@@ -44,7 +51,11 @@ function makeBarChart(fuel, metric) {
                 type: 'bar',
                 name: 'PTW',
                 orientation: 'h',
-                marker: { color: 'red', width: 1 }
+                marker: {
+                    color: '#FFC107', // a bright amber color for contrast to aid colorblind users, and to be visually distinct from the other bars
+                    pattern: { shape: '-', size: 10, solidity: 0.5 }, width: 2 // Use a different pattern for PTW to differentiate it from other bars
+                }
+
             };
             let trace3 = {
                 x: [emiss_values.WTW],
@@ -52,19 +63,24 @@ function makeBarChart(fuel, metric) {
                 type: 'bar',
                 name: 'WTW',
                 orientation: 'h',
-                marker: { color: 'green', width: 1 }
+                marker: {
+                    color: '#1E88E5', // a medium blue color for contrast to aid colorblind users, and to be visually distinct from the other bars
+                    pattern: { shape: '+', size: 10, solidity: 0.5 }, width: 2
+                }
             };
-
             let plot = [trace3, trace2, trace1];
             let layout = {
-                title: 'Emissions for Selected Fuel and Metric',
+                title: 'Emissions for Selected fuel and Metric',
                 barmode: 'overlay',
                 xaxis: { title: emiss_values.units.replace(/CO2e/g, 'CO<sub>2</sub>e') },
                 yaxis: { title: 'Emissions by LCA Stage' },
-                width: 500
+                autosize: true, // Enable responsive resizing to make the plot adapt to different screen sizes
+                legend: { font: { size: 20 }, traceorder: 'reversed' }, // Reverse the legend order to match the stacking order of the bars
+                margin: { t: 50, r: 50, b: 50, l: 120 }, // Adjust margins for better spacing
+                height: 400 // Set a fixed height for the plot
             };
 
-            Plotly.newPlot('bar', plot, layout);
+            Plotly.newPlot('bar', plot, layout, {responsive: true});
         } else {
             console.error("fuel or metric not found in data.");
         }
