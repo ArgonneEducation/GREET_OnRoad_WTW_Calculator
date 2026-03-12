@@ -15,7 +15,7 @@ In the deployed app, there is a dropdown box in the top left corner.  By default
 
 The large bar chart graphic displays the results chosen and displayed above for [well-to-pump](#well-to-pump-wtp), [pump-to-wheels](#pump-to-wheels-ptw), and [well-to-wheels](#well-to-wheels-wtw) emissions for the chosen feedstock and metric.  These are defined in the [glossary](#Glossary).
 
-The table at the bottom is configured to show ALL the data for a particular metric, with a column for each feedstock/process.  Again, there is a dropdown box to change the metric.  The table is NOT directly linked to the graph, though the data used for the graph can be found in the table as well, with immediate comparisons to the values for other feedstocks/processes.
+The table at the bottom is configured to show ALL the data for a particular metric, with a row for each fuel.  Again, there is a dropdown box to change the metric.  The table is NOT directly linked to the graph, though the data used for the graph can be found in the table as well, with immediate comparisons to the values for other feedstocks/processes.
 
 ## Background Information
 The data displayed here are data for life cycle analysis of the emissions (and more) of different processes for producing fuel for on-road vehicles.  Life cycle analysis is a form of cradle-to-grave analysis that is intended to provide information for making decisions about which processes to invest in.  Life cycle analysis helps us answer the question: "Does this way of doing things really produce fewer emissions when the entire process is considered?"
